@@ -15,7 +15,7 @@ public class MyControlle {
 
     @GetMapping("/")
     public String index(){
-        return "index1";
+        return "index";
     }
 
     @GetMapping("/add")
